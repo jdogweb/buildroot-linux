@@ -1,0 +1,3 @@
+ifeq ($(BR2_PACKAGE_LIBGPHOTO2),y)
+TARGETS+=libgphoto2
+endif

@@ -266,6 +266,8 @@ source "package/libconfuse/Config.in"
 source "package/fuse/Config.in"
 source "package/liblockfile/Config.in"
 source "package/libsysfs/Config.in"
+source "package/gphotofs/Config.in"
+source "package/libgphoto2/Config.in"
 endmenu
 
 menu "Graphics"

@@ -1,0 +1,1 @@
+/usr/lib/libgphoto2/print-camera-list udev-rules version 175 mode 0660 > /etc/udev/rules.d/40-gphoto.rules
