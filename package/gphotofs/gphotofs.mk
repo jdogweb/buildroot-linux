@@ -9,7 +9,6 @@ GPHOTOFS_SOURCE = gphotofs-$(GPHOTOFS_VERSION).tar.gz
 GPHOTOFS_SITE = http://$(BR2_SOURCEFORGE_MIRROR).dl.sourceforge.net/sourceforge/gphoto/gphotofs
 GPHOTOFS_INSTALL_STAGING = YES
 GPHOTOFS_INSTALL_TARGET = YES
-GPHOTOFS_INSTALL_TARGET_OPT = DESTDIR=$(TARGET_DIR) install
 GPHOTOFS_DEPENDENCIES = libusb-compat libfuse libgphoto2 udev
 GPHOTOFS_CONF_ENV += LDFLAGS+="-lgphoto2"
 
